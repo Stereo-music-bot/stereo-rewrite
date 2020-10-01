@@ -1096,3 +1096,15 @@ Caused by: java.lang.NullPointerException: null
 2020-10-01 20:18:03.384  INFO 3876 --- [XNIO-1 task-36] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:62604
 2020-10-01 20:18:03.384  INFO 3876 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"configureResuming","timeout":60000,"key":"0.0fsseeamrvg"}
 2020-10-01 20:20:48.894  INFO 3876 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","sessionId":"54b55a27f654b63f9cdae8407ee5d2fd","event":{"token":"42cc0d8d8009b7ce","guild_id":"743145077206941747","endpoint":"eu-central985.discord.media:443"},"guildId":"743145077206941747"}
+2020-10-01 20:21:03.251  INFO 3876 --- [XNIO-1 task-37] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-10-01 20:21:03.566  INFO 3876 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist petit biscuit discography
+2020-10-01 20:21:03.573  INFO 3876 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAnQIANlBldGl0IEJpc2N1aXQgLSBEcml2aW4gVGhydSBUaGUgTmlnaHQgKE9mZmljaWFsIFZpZGVvKQANUGV0aXQgQmlzY3VpdAAAAAAAAxEoAAtaY1RMendocE1ZWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVpjVEx6d2hwTVlZAAd5b3V0dWJlAAAAAAAAAAA=","guildId":"743145077206941747"}
+2020-10-01 20:21:03.580  INFO 3876 --- [XNIO-1 task-39] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-01 20:21:08.221  INFO 3876 --- [parallel-5] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central985.discord.media:443/?v=4 closed with code 4014 and reason Disconnected.
+2020-10-01 20:21:08.222  INFO 3876 --- [parallel-5] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-10-01 20:21:08.327  INFO 3876 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","sessionId":"54b55a27f654b63f9cdae8407ee5d2fd","event":{"token":"42cc0d8d8009b7ce","guild_id":"743145077206941747","endpoint":"eu-central7852.discord.media:443"},"guildId":"743145077206941747"}
+2020-10-01 20:21:35.043  INFO 3876 --- [parallel-4] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central7852.discord.media:443/?v=4 closed with code 4014 and reason Disconnected.
+2020-10-01 20:21:35.044  INFO 3876 --- [parallel-4] s.n.m.impl.connections.AudioWebSocket    : Closing
+2020-10-01 20:21:35.154  INFO 3876 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","sessionId":"54b55a27f654b63f9cdae8407ee5d2fd","event":{"token":"42cc0d8d8009b7ce","guild_id":"743145077206941747","endpoint":"eu-central5831.discord.media:443"},"guildId":"743145077206941747"}
+2020-10-01 20:22:25.276  INFO 3876 --- [parallel-3] s.n.m.impl.connections.AudioWebSocket    : Websocket to wss://eu-central5831.discord.media:443/?v=4 closed with code 4014 and reason Disconnected.
+2020-10-01 20:22:25.276  INFO 3876 --- [parallel-3] s.n.m.impl.connections.AudioWebSocket    : Closing
