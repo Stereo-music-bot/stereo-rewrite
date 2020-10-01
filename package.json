@@ -1,0 +1,32 @@
+{
+  "name": "stereo-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/bot.ts",
+    "start": "node ./build/bot.js",
+    "build": "tsc --build",
+    "lavalink": "java -jar ./lavalink/Lavalink.jar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stereo-music-bot/stereo-rewrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "lavaclient": "^3.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
