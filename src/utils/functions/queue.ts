@@ -85,7 +85,7 @@ export default class Queue extends EventEmitter {
                     case 'empty':
                     default:
                         this.message.channel.send(
-                            `> 🔈 | The queue is empty, I will leave the voice channel now...`
+                            `> 🔇 | The queue is empty, I will leave the voice channel now...`
                         );
                         return await this.clear();
                     
