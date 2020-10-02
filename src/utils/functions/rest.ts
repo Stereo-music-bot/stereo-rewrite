@@ -13,6 +13,7 @@ interface TrackInfo {
     version?: number;
     probeInfo?: { raw: string, name: string, parameters: string | null };
 }
+
 export default class rest {
     public static async search(track: string) {
         return await (

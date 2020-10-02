@@ -6,7 +6,12 @@ export default class ReadyEvent extends BaseEvent {
     super('ready');
   }
   async run (client: DiscordClient) {
-    await client.music.init(client.user.id);
+    let activities = ['with the re-written code', 'the new Beta 5 soon™', 'Listening to Daan about the new update', 'Waiting for beta 5 launch', 'with the new music system 👀'], i =0;
+    setInterval(() => client.user.setActivity(activities[i++ % activities.length], { type: 'PLAYING' }), 15000);
+    
+    await client.user.setStatus('dnd');
+    client.music.init(client.user.id);
+
     console.log(`${client.user.tag} has logged in!`);
   }
 }

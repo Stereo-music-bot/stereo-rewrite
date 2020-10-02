@@ -18,12 +18,15 @@
   "author": "daangamesdg",
   "license": "ISC",
   "dependencies": {
+    "@kyflx-dev/lavalink-types": "^1.0.2",
+    "@lavalink/encoding": "^0.1.1",
     "@types/node": "^14.11.2",
     "@types/node-fetch": "^2.5.7",
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "lavaclient": "^3.1.2",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "string-progressbar": "^1.0.1"
   },
   "devDependencies": {
     "ts-node": "^9.0.0",

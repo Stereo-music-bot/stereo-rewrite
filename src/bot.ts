@@ -22,6 +22,7 @@ const client = new DiscordClient({});
     },
   });
   client.emojiFinder = EmojiFinder;
+  client.owners = ['304986851310043136'];
   
   await registerCommands(client, '../commands');
   await registerEvents(client, '../events/ClientEvents');
@@ -44,6 +45,7 @@ declare module "lavaclient" {
 declare module 'discord.js' {
   interface Client {
     emojiFinder: typeof EmojiFinder;
+    owners: Array<string>;
   }
 }
 

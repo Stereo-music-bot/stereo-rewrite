@@ -12,6 +12,8 @@ export default class PlayCommand extends BaseCommand {
       'play', 
       'Music', 
       ['p', 'pl'],
+      'The main command to play a song',
+      '<song name/url>',
       false,
       false
     );
@@ -73,7 +75,7 @@ export default class PlayCommand extends BaseCommand {
           if (/cancel/i.test(m.content)) return collector.stop('cancelled');
 
           const track = result.tracks[Number(m.content) - 1];
-          player.queue.add(track, message.author.id);
+          player.queue.add(track.track, message.author.id);
 
           if (!player.connected) player.connect(channel.id, { selfDeaf: true });
           if (!player.playing && !player.paused) await player.queue.start(message);

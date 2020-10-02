@@ -56,13 +56,13 @@ export default class Queue extends EventEmitter {
             })
             .on('stuck', () => {
                 this.message.channel.send(
-                    `> ${this.message.client.emojiFinder(this.message.client, 'redtick').toString()} | The player is stuck on the song: **${this.current.track}**. I will skip this song now.`
+                    `> <:redtick:749587325901602867> | The player is stuck on the song: **${this.current.track}**. I will skip this song now.`
                 );
                 return this._next();
             })
             .on('error', (e) => {
                 this.message.channel.send(
-                    `> ${this.message.client.emojiFinder(this.message.client, 'redtick').toString()} | An error occured while playing **${this.current.track}**: ${e.exception.message}`
+                    `> <:redtick:749587325901602867> | An error occured while playing **${this.current.track}**: ${e.exception.message}`
                 );
                 return this._next();
             });

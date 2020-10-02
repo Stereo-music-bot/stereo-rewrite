@@ -8,6 +8,8 @@ export default class SkiptoCommand extends BaseCommand {
       'skipto', 
       'Music', 
       [],
+      'Skips the amount of songs you want',
+      '<song number>',
       false,
       true
     );
@@ -26,7 +28,7 @@ export default class SkiptoCommand extends BaseCommand {
     
     if (parseInt(args[0]) > player.queue.next.length || isNaN(parseInt(args[0])))
       return message.channel.send(`> ${client.emojiFinder(client, 'redtick').toString()} | Invalid song number.`);
-    await player.queue.skipto(parseInt(args[0]));
+    await player.queue.skipto(parseInt(args[0]) - 1);
     if (player.queue.current) return message.channel.send(`> ⏭ | Successfully skipped \`${args[0]}\` song(s)!`);
   }
 }

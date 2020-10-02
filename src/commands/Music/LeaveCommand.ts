@@ -8,6 +8,8 @@ export default class LeaveCommand extends BaseCommand {
       'leave', 
       'Music', 
       ['disconnect'],
+      'Leaves your channel and destroys the queue + player',
+      '',
       false,
       false
     );
@@ -16,6 +18,10 @@ export default class LeaveCommand extends BaseCommand {
   async run(client: DiscordClient, message: Message, args: Array<string>) {
     const { channel } = message.member.voice;
     const player = client.music.players.get(message.guild.id);
+
+    if (!player) return message.channel.send(
+      `> ${client.emojiFinder(client, 'redtick').toString()} | There is no active player in this server.`
+    );
     if (!channel || player.channel !== channel.id) return message.channel.send(
       `> ${client.emojiFinder(client, 'redtick').toString()} | You are not the correct voice channel, join \`${message.guild.channels.cache.get(player.channel).name}\`!`
     );

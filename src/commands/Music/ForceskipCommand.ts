@@ -8,6 +8,8 @@ export default class ForceskipCommand extends BaseCommand {
       'forceskip', 
       'Music', 
       ['fs', 'fnext'],
+      'Force skips the song, you need a djrole or the manage channels permission for this',
+      '',
       false,
       true
     );

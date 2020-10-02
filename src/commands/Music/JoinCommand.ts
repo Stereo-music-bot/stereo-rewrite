@@ -9,6 +9,8 @@ export default class JoinCommand extends BaseCommand {
       'join',
       'Music',
       ['connect'],
+      'Joins your voice channel if the bot is able to join it.',
+      '',
       false,
       false
     );

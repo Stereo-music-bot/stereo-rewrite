@@ -1,3 +1,4 @@
 /node_modules/
 .env
 pacakage-lock.json
+lavalink/logs

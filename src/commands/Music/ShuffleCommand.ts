@@ -8,6 +8,8 @@ export default class ShuffleCommand extends BaseCommand {
       'shuffle', 
       'Music', 
       ['random'],
+      'Shuffles the queue to give more play fun',
+      '',
       false,
       true
     );
