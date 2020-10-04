@@ -3,6 +3,7 @@ import { EventEmitter } from 'events';
 import { Player } from 'lavaclient';
 import Util from './util';
 import rest from './rest';
+import { decode } from '@lavalink/encoding';
 
 interface QueueObject {
     track: string;
@@ -54,15 +55,17 @@ export default class Queue extends EventEmitter {
                     .setColor(this.message.guild.members.cache.get(this.current.requester).displayHexColor || 'BLUE')
                 return this.message.channel.send(embed);
             })
-            .on('stuck', () => {
+            .on('stuck', async () => {
+                await this.message.client.Webhook.send(`> ❌ | New error | **${this.message.guild.name}** | Error: \`Player stuck on song: ${decode(this.current.track).title} | ${this.current.track}\``);
                 this.message.channel.send(
-                    `> <:redtick:749587325901602867> | The player is stuck on the song: **${this.current.track}**. I will skip this song now.`
+                    `> <:redtick:749587325901602867> | The player is stuck on the song: **${decode(this.current.track).title}**. I will skip this song now.`
                 );
                 return this._next();
             })
-            .on('error', (e) => {
+            .on('error', async (e) => {
+                await this.message.client.Webhook.send(`> ❌ | New error | **${this.message.guild.name}** | Song: ${decode(this.current.track).title} | Error: \`${!e.exception ? e.error : e.exception.message}\``);
                 this.message.channel.send(
-                    `> <:redtick:749587325901602867> | An error occured while playing **${this.current.track}**: ${e.exception.message || 'UN EXPECTED LOADING ERROR'}`
+                    `> <:redtick:749587325901602867> | An error occured while playing **${decode(this.current.track).title}**: ${!e.exception ? e.error : e.exception.message}`
                 );
                 return this._next();
             });

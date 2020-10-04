@@ -71,3 +71,135 @@
 2020-10-04 13:32:10.544  INFO 15812 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-10-04 13:32:10.545  INFO 15812 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
 2020-10-04 13:32:10.548  INFO 15812 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-10-04 16:44:14.851  INFO 18100 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.3
+	Build:          1102
+	Build time:     29.09.2020 12:12:31 UTC
+	Branch          master
+	Commit:         39b243f
+	Commit time:    29.09.2020 10:25:53 UTC
+	JVM:            13.0.4
+	Lavaplayer      1.3.53
+
+2020-10-04 16:44:14.935  INFO 18100 --- [main] lavalink.server.Launcher                 : Starting Launcher on Daans-Desktop with PID 18100 (D:\Documents\vscode-projects\Discord\stereo-projects\stereo-typescript\lavalink\Lavalink.jar started by Dwkla in D:\Documents\vscode-projects\Discord\stereo-projects\stereo-typescript)
+2020-10-04 16:44:14.936  INFO 18100 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-10-04 16:44:16.309  WARN 18100 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-10-04 16:44:16.344  INFO 18100 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-10-04 16:44:16.345  INFO 18100 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1364 ms
+2020-10-04 16:44:16.762  WARN 18100 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-10-04 16:44:16.771  INFO 18100 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-10-04 16:44:16.772  INFO 18100 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-10-04 16:44:16.772  INFO 18100 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-10-04 16:44:16.772  INFO 18100 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-10-04 16:44:17.105  INFO 18100 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-10-04 16:44:17.715  INFO 18100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-04 16:44:18.062  INFO 18100 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-10-04 16:44:18.076  INFO 18100 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-10-04 16:44:18.206  INFO 18100 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7621 (http) with context path ''
+2020-10-04 16:44:18.210  INFO 18100 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.007 seconds (JVM running for 4.486)
+2020-10-04 16:44:25.099  INFO 18100 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-04 16:44:25.101  INFO 18100 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-04 16:44:25.108  INFO 18100 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-10-04 16:44:25.134  INFO 18100 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63469
+2020-10-04 16:44:25.267  INFO 18100 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:63469
+2020-10-04 16:44:25.286  INFO 18100 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"configureResuming","timeout":60000,"key":"0.4mehdomhm6"}
+2020-10-04 16:45:45.362  INFO 18100 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63469 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60000 seconds with key 0.4mehdomhm6
+2020-10-04 16:45:49.729  INFO 18100 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63722
+2020-10-04 16:45:49.737  INFO 18100 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:63722
+2020-10-04 16:45:49.738  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"configureResuming","timeout":60000,"key":"0.21vg6g2ta3g"}
+2020-10-04 16:49:08.077  INFO 18100 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-10-04 16:49:09.039  INFO 18100 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Math Music Playlist
+2020-10-04 16:49:09.072  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAcgIAEklOWk8gLSBPdmVydGhpbmtlcgAGTG93bHkuAAAAAAAEMjgAC2x1UVNRdUNIdGNJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bHVRU1F1Q0h0Y0kAB3lvdXR1YmUAAAAAAAAAAA==","guildId":"743145077206941747"}
+2020-10-04 16:49:09.096  INFO 18100 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:49:09.278  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","sessionId":"bdc817e5d684329e37e41c0ef318bcb8","event":{"token":"0f24b903ffa17d98","guild_id":"743145077206941747","endpoint":"eu-central7918.discord.media:443"},"guildId":"743145077206941747"}
+2020-10-04 16:49:09.366  INFO 18100 --- [parallel-3] com.jcabi.manifests.Manifests            : 73 attributes loaded from 85 stream(s) in 67ms, 73 saved, 1241 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-10-04 16:49:14.833  INFO 18100 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:49:14.838  INFO 18100 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:49:14.843  INFO 18100 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:53:43.431  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAngIAMVBhbmljISBBdCBUaGUgRGlzY28gLSBIaWdoIEhvcGVzIChPZmZpY2lhbCBWaWRlbykAE1BhbmljISBBdCBUaGUgRGlzY28AAAAAAAMBiAALSVBYSWdFQUdlNFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JUFhJZ0VBR2U0VQAHeW91dHViZQAAAAAAAAAA","guildId":"743145077206941747"}
+2020-10-04 16:53:43.441  INFO 18100 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:56:59.893  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAnQIANkNhbHZpbiBIYXJyaXMsIFJhZyduJ0JvbmUgTWFuIC0gR2lhbnQgKE9mZmljaWFsIFZpZGVvKQANQ2FsdmluIEhhcnJpcwAAAAAAA5X4AAtpcjZuazJ6ck1HMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWlyNm5rMnpyTUcwAAd5b3V0dWJlAAAAAAAAAAA=","guildId":"743145077206941747"}
+2020-10-04 16:56:59.900  INFO 18100 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:57:00.351 ERROR 18100 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.t.p.LocalAudioTrackExecutor      : Error in playback of ir6nk2zrMG0
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something broke when playing the track.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:117) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:349) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at java.base/java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeSignatureCipherManager.getCipherKeyFromScript(YoutubeSignatureCipherManager.java:136) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeSignatureCipherManager.resolveFormatUrl(YoutubeSignatureCipherManager.java:103) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.loadBestFormatWithUrl(YoutubeAudioTrack.java:87) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:42) ~[lavaplayer-a63c541dc5.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:105) ~[lavaplayer-a63c541dc5.jar!/:na]
+	... 4 common frames omitted
+
+2020-10-04 16:57:00.359  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAvQIAWVR3ZW50eSBPbmUgUGlsb3RzIHggTWFyTWFyIE9zbyB4IFBhbmljISBBdCBUaGUgRGlzY28gWyBDYXJuZXl2YWwgTWFzaHVwIF0gfCBUaWtUb2sgTWFzaHVwAApXZWVrIE11c2ljAAAAAAABrbAAC1VqNjBQbTZhaVpJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VWo2MFBtNmFpWkkAB3lvdXR1YmUAAAAAAAAAAA==","guildId":"743145077206941747"}
+2020-10-04 16:57:00.366  INFO 18100 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 16:58:49.838  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAjAIAKmdyYW5kc29uIC0gQmxvb2QgLy8gV2F0ZXIgKE9mZmljaWFsIEF1ZGlvKQAIZ3JhbmRzb24AAAAAAANPqAALU2stVThydUlReUEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Tay1VOHJ1SVF5QQAHeW91dHViZQAAAAAAAAAA","guildId":"743145077206941747"}
+2020-10-04 16:58:49.845  INFO 18100 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:25.093  INFO 18100 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-10-04 17:00:25.556  INFO 18100 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Calvin Harris, Rag'n'Bone Man - Giant (Official Video)
+2020-10-04 17:00:29.671  INFO 18100 --- [XNIO-1 task-15] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:29.680  INFO 18100 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:29.687  INFO 18100 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:33.658  INFO 18100 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:33.664  INFO 18100 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:33.669  INFO 18100 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:00:40.421  INFO 18100 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-10-04 17:00:40.826  INFO 18100 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track grandson - Blood // Water (Official Audio)
+2020-10-04 17:02:26.599  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAhgIAJk9ERVNaQSAtIEEgTW9tZW50IEFwYXJ0IChFeHRlbmRlZCBNaXgpAAZTaWxlbnQAAAAAAAYWmAALNUxnaWlZYWE5NlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01TGdpaVlhYTk2UQAHeW91dHViZQAAAAAAAAAA","guildId":"743145077206941747"}
+2020-10-04 17:02:26.608  INFO 18100 --- [XNIO-1 task-23] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:02:32.155  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"743145077206941747"}
+2020-10-04 17:02:35.531  INFO 18100 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63722 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60000 seconds with key 0.21vg6g2ta3g
+2020-10-04 17:02:40.159  INFO 18100 --- [XNIO-1 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50187
+2020-10-04 17:02:40.172  INFO 18100 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:50187
+2020-10-04 17:02:40.173  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"configureResuming","timeout":60000,"key":"0.4cuerj3dp"}
+2020-10-04 17:02:47.013  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","sessionId":"5829b69ce303f7ccc4b43a385f4e6d77","event":{"token":"4806ca388682df3b","guild_id":"743145077206941747","endpoint":"eu-central7918.discord.media:443"},"guildId":"743145077206941747"}
+2020-10-04 17:02:53.923  INFO 18100 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-10-04 17:02:54.141  INFO 18100 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Math Music Playlist
+2020-10-04 17:02:54.147  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAcgIAEklOWk8gLSBPdmVydGhpbmtlcgAGTG93bHkuAAAAAAAEMjgAC2x1UVNRdUNIdGNJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bHVRU1F1Q0h0Y0kAB3lvdXR1YmUAAAAAAAAAAA==","guildId":"743145077206941747"}
+2020-10-04 17:02:54.153  INFO 18100 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:02:57.145  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"743145077206941747"}
+2020-10-04 17:02:57.146  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAhgIAJk9ERVNaQSAtIEEgTW9tZW50IEFwYXJ0IChFeHRlbmRlZCBNaXgpAAZTaWxlbnQAAAAAAAYWmAALNUxnaWlZYWE5NlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01TGdpaVlhYTk2UQAHeW91dHViZQAAAAAAAAAA","guildId":"743145077206941747"}
+2020-10-04 17:02:57.152  INFO 18100 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:03:00.077  INFO 18100 --- [XNIO-1 task-29] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:03:00.082  INFO 18100 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:03:00.087  INFO 18100 --- [XNIO-1 task-31] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:09:35.977  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAvQIAWVR3ZW50eSBPbmUgUGlsb3RzIHggTWFyTWFyIE9zbyB4IFBhbmljISBBdCBUaGUgRGlzY28gWyBDYXJuZXl2YWwgTWFzaHVwIF0gfCBUaWtUb2sgTWFzaHVwAApXZWVrIE11c2ljAAAAAAABrbAAC1VqNjBQbTZhaVpJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VWo2MFBtNmFpWkkAB3lvdXR1YmUAAAAAAAAAAA==","guildId":"743145077206941747"}
+2020-10-04 17:09:35.986  INFO 18100 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:10:15.629  INFO 18100 --- [XNIO-1 task-33] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:10:15.634  INFO 18100 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:10:15.639  INFO 18100 --- [XNIO-1 task-35] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:11:25.845  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAjAIAKmdyYW5kc29uIC0gQmxvb2QgLy8gV2F0ZXIgKE9mZmljaWFsIEF1ZGlvKQAIZ3JhbmRzb24AAAAAAANPqAALU2stVThydUlReUEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Tay1VOHJ1SVF5QQAHeW91dHViZQAAAAAAAAAA","guildId":"743145077206941747"}
+2020-10-04 17:11:25.851  INFO 18100 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:11:29.728  INFO 18100 --- [XNIO-1 task-37] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:11:29.734  INFO 18100 --- [XNIO-1 task-38] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:11:29.739  INFO 18100 --- [XNIO-1 task-39] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:15:02.592  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAngIAMVBhbmljISBBdCBUaGUgRGlzY28gLSBIaWdoIEhvcGVzIChPZmZpY2lhbCBWaWRlbykAE1BhbmljISBBdCBUaGUgRGlzY28AAAAAAAMBiAALSVBYSWdFQUdlNFUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JUFhJZ0VBR2U0VQAHeW91dHViZQAAAAAAAAAA","guildId":"743145077206941747"}
+2020-10-04 17:15:02.599  INFO 18100 --- [XNIO-1 task-40] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:18:19.147  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAnQIANkNhbHZpbiBIYXJyaXMsIFJhZyduJ0JvbmUgTWFuIC0gR2lhbnQgKE9mZmljaWFsIFZpZGVvKQANQ2FsdmluIEhhcnJpcwAAAAAAA5X4AAtpcjZuazJ6ck1HMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWlyNm5rMnpyTUcwAAd5b3V0dWJlAAAAAAAAAAA=","guildId":"743145077206941747"}
+2020-10-04 17:18:19.152  INFO 18100 --- [XNIO-1 task-41] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:22:13.822  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAowIAQlN0aWxsIERvbid0IEtub3cgTXkgTmFtZSB4IEZlZWwgU29tZXRoaW5nIHx8IENPTVBMRVRFIEVESVQgVkVSU0lPTgAHQ3hybzF1cwAAAAAAAs7AAAtkaDRISFFjMDZlbwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWRoNEhIUWMwNmVvAAd5b3V0dWJlAAAAAAAAAAA=","guildId":"743145077206941747"}
+2020-10-04 17:22:13.828  INFO 18100 --- [XNIO-1 task-42] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:22:18.817  INFO 18100 --- [XNIO-1 task-43] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:22:18.822  INFO 18100 --- [XNIO-1 task-44] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:22:18.828  INFO 18100 --- [XNIO-1 task-45] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:22:24.008  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"743145077206941747"}
+2020-10-04 17:22:24.009  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAlAIALEJUUyAo67Cp7YOE7IaM64WE64uoKSAnRHluYW1pdGUnIE9mZmljaWFsIE1WAA5CaWcgSGl0IExhYmVscwAAAAAAA2sAAAtnZFpMaTlvV05aZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWdkWkxpOW9XTlpnAAd5b3V0dWJlAAAAAAAAAAA=","guildId":"743145077206941747"}
+2020-10-04 17:22:24.014  INFO 18100 --- [XNIO-1 task-46] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:26:07.486  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"play","track":"QAAAlAIAL2JsYWNrYmVhciAtIGZhc2hpb24gd2VlayAoaXQncyBkaWZmZXJlbnQgcmVtaXgpAAtUcmFwIE5hdGlvbgAAAAAAAmFgAAtKbVNJUWQ2X2RwZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUptU0lRZDZfZHBnAAd5b3V0dWJlAAAAAAAAAAA=","guildId":"743145077206941747"}
+2020-10-04 17:26:07.491  INFO 18100 --- [XNIO-1 task-47] l.server.player.AudioLoaderRestHandler   : GET /decodetrack
+2020-10-04 17:28:42.780  INFO 18100 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"743145077206941747"}

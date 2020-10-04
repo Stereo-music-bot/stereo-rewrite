@@ -31,7 +31,8 @@
     "lavaclient": "^3.1.2",
     "node-fetch": "^2.6.1",
     "node-superfetch": "^0.1.10",
-    "string-progressbar": "^1.0.1"
+    "string-progressbar": "^1.0.1",
+    "webhook-discord": "^3.7.7"
   },
   "devDependencies": {
     "ts-node": "^9.0.0",

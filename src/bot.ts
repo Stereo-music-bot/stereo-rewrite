@@ -5,9 +5,12 @@ import { EmojiFinder } from './utils/functions/emojiFinder'
 import { Manager } from 'lavaclient';
 import Queue from './utils/functions/queue';
 import DiscordClient from './client/client';
+import { WebhookClient } from 'discord.js';
 const client = new DiscordClient({});
 
 (async () => {
+  const webhook = new WebhookClient('762318210959540234', 'qX0BfjL9GVopsV6zq1OXXEkeEvGC_3u9tHLUYTgCkWMZlsZE3azVJYNVsx1K5-8Vd12h');
+
   client.prefix = process.env.DISCORD_BOT_PREFIX || client.prefix;
   client.music = new Manager([{
     id: "main",
@@ -21,9 +24,12 @@ const client = new DiscordClient({});
       if (guild) guild.shard.send(pk);
     },
   });
+
   client.emojiFinder = EmojiFinder;
   client.owners = ['304986851310043136'];
-  
+  client.Webhook = webhook;
+  client.Webhook.edit({ name: 'Stereo Backlog', avatar: 'https://cdn.discordapp.com/attachments/745370558149165197/761613083398373428/Stereo_Logo-halloween1.png'});
+
   await registerCommands(client, '../commands');
   await registerEvents(client, '../events/ClientEvents');
   await registerWSEvents(client, '../events/WebSocketEvents');
@@ -46,6 +52,7 @@ declare module 'discord.js' {
   interface Client {
     emojiFinder: typeof EmojiFinder;
     owners: Array<string>;
+    Webhook: WebhookClient;
   }
 }
 
