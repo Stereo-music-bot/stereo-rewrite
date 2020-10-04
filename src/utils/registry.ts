@@ -14,6 +14,7 @@ export async function registerCommands(client: DiscordClient, dir: string = '') 
       const { default: Command } = await import(path.join(dir, file));
       const command = new Command();
       client.commands.set(command.getName(), command);
+      client.cs.set(command.getName(), command);
       command.getAliases().forEach((alias: string) => {
         client.commands.set(alias, command);
       });

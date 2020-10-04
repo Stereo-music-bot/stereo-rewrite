@@ -22,19 +22,20 @@ export default class MessageEvent extends BaseEvent {
           .trim()
           .split(/\s+/);
         
-      const valids = client.commands.filter(c => c.getCategory() === 'Owner' || c.getCategory() === 'Developer' || c.getCategory() === 'Staff');
+      const valids = client.commands.filter(c => c.getOwnerOnly());
       const command = valids.get(cmdName);
-      if (command) command.run(client, message, cmdArgs);
+      if (command) return command.run(client, message, cmdArgs);
       else if (!command) return message.channel.send(
         `> ${client.emojiFinder(client, 'redtick').toString()} | It looks like that is not a valid staff command, for normal commands use \`${client.prefix}\``
       );
-    }
-    if (message.content.startsWith(client.prefix)) {
+    }else if (message.content.startsWith(client.prefix)) {
       const [cmdName, ...cmdArgs] = message.content
         .slice(client.prefix.length)
         .trim()
         .split(/\s+/);
-      const command = client.commands.get(cmdName);
+
+      const valids = client.commands.filter(c => !c.getOwnerOnly());
+      const command = valids.get(cmdName);
       if (command) {
         command.run(client, message, cmdArgs);
       }

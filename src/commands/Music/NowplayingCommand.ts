@@ -51,9 +51,9 @@ export default class NowplayingCommand extends BaseCommand {
       `> **🎵 | Song**: [${current.title}](${current.uri})`,
       `> **👤 | Requested by**: ${requester.toString()}`,
       `> ${(player.queue.repeat.always || player.queue.repeat.queue) ? repeats['queue'] : player.queue.repeat.song ? repeats['song'] : repeats['none']}`,
-      `> **🔊 | Volume**: \`${player.volume / 100}\` \n`,
+      `> **🔊 | Volume**: \`${player.volume}\`% \n`,
       `> **↔️ | Play Progress**: \`${(Util.formatTime(player.position).length === 2 ? `00:` + Util.formatTime(player.position) : Util.formatTime(player.position)) || '00:00'}\` / \`${Util.formatTime(Number(current.length))}\``,
-      `> ⌚ **|** [${"▬".repeat(Math.floor((player.position / Number(current.length)) * 20)) + "⚪" + "-".repeat(20 - Math.floor((player.position / Number(current.length)) * 20))}]`
+      `> ⌚ **|** [${"▬".repeat(Math.floor((player.position / Number(current.length)) * 20)) + "⚪" + "▬".repeat(20 - Math.floor((player.position / Number(current.length)) * 20))}]`
     ])
     .setThumbnail(`https://i.ytimg.com/vi/${current.identifier}/hqdefault.jpg`)
     .setColor(requester.displayHexColor || 'BLUE')

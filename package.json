@@ -20,12 +20,17 @@
   "dependencies": {
     "@kyflx-dev/lavalink-types": "^1.0.2",
     "@lavalink/encoding": "^0.1.1",
+    "@types/fuzzy-search": "^2.1.0",
+    "@types/humanize-duration": "^3.18.1",
     "@types/node": "^14.11.2",
     "@types/node-fetch": "^2.5.7",
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
+    "fuzzy-search": "^3.2.1",
+    "humanize-duration": "^3.24.0",
     "lavaclient": "^3.1.2",
     "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.1.10",
     "string-progressbar": "^1.0.1"
   },
   "devDependencies": {

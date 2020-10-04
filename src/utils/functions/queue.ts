@@ -62,7 +62,7 @@ export default class Queue extends EventEmitter {
             })
             .on('error', (e) => {
                 this.message.channel.send(
-                    `> <:redtick:749587325901602867> | An error occured while playing **${this.current.track}**: ${e.exception.message}`
+                    `> <:redtick:749587325901602867> | An error occured while playing **${this.current.track}**: ${e.exception.message || 'UN EXPECTED LOADING ERROR'}`
                 );
                 return this._next();
             });

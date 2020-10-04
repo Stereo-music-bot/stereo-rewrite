@@ -7,6 +7,7 @@ import { Manager } from 'lavaclient';
 export default class DiscordClient extends Client {
 
   private _commands = new Collection<string, BaseCommand>();
+  private _cs = new Collection<string, BaseCommand>();
   private _events = new Collection<string, BaseEvent>();
   private _prefix: string = '!';
   public music: Manager;
@@ -16,6 +17,7 @@ export default class DiscordClient extends Client {
   }
 
   get commands(): Collection<string, BaseCommand> { return this._commands; }
+  get cs(): Collection<string, BaseCommand> { return this._cs; }
   get events(): Collection<string, BaseEvent> { return this._events; }
   get prefix(): string { return this._prefix; }
 
